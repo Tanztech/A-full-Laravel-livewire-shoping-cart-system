@@ -25,7 +25,7 @@
         }
 
         .bg {
-            background-image: url("./storage/app/public/images/background.jpg");
+            background-image: url("https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?w=740&t=st=1683885049~exp=1683885649~hmac=3b6e3994f9a903be58b847dbc651184d7eb6e8d4b0c91306d071d7debb3519e6");
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
@@ -79,12 +79,9 @@
         </div>
     </div>
     <div class="foot-message">
-        <p class="text-white">You are being redirected to a secure page</p>
+        <p class="text-white" style="font-size: 22px">You are being redirected to a secure page</p>
     </div>
 </div>
-
-
-
     @if (Route::has('login'))
         @auth()
             <script>
@@ -100,12 +97,7 @@
             </script>
         @endauth
     @endif
-
-
-
-
 <script>
-
     setTimeout(function() {
         window.location.href = "{{ route('home') }}";
     }, 5000);
