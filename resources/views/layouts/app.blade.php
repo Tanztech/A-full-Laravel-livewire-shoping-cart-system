@@ -36,9 +36,8 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         @yield('cart-view')
-
                         <!-- Authentication Links -->
-                       <div class="align-self-center">
+                       <div class="align-self-center d-flex">
                            @guest
                                @if (Route::has('login'))
                                    <li class="nav-item">

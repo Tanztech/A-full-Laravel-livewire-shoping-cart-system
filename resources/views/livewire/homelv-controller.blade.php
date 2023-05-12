@@ -34,7 +34,7 @@
         </div>
         {{-- END  error messages --}}
         <div class="col-md-12">
-            <div>
+            <div class="cart-content">
                 <h2>Shop With Ease</h2>
                 <div id="shop">
                     <div class="row">
